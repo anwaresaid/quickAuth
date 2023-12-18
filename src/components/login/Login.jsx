@@ -23,7 +23,8 @@ function Login() {
       });
   };
   return (
-    <div className="d-flex justify-content-center align-items-center">
+    <div className="login-form p-5 d-flex flex-column justify-content-center align-items-center w-50 rounded">
+      <h3 className="bg-info p-4 rounded border-black">LOGIN FORM</h3>
       <div>
         <Form onSubmit={onSubmit}>
           <Form.Group className="mb-3" controlId="username">
